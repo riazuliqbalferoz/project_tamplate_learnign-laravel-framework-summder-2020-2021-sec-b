@@ -68,8 +68,8 @@
                     <label>Password</label>
                     <input type="password" class="form-control" placeholder="Password">
                  </div>
-                 <button type="submit" class="btn btn-black">Login</button>
-                 <button type="submit" class="btn btn-secondary"><a class="text-white" href="register.html">Registration</a></button>
+                 <button type="submit" class="btn btn-black"><a class="text-white" href="{{url('/dashboard')}}">Login</a></button>
+                 <button type="submit" class="btn btn-secondary"><a class="text-white" href="{{url('/register')}}">Registration</a></button>
               </form>
            </div>
         </div>
