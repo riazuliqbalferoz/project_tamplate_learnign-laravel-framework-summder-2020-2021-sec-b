@@ -16,6 +16,7 @@ use App\Http\Controllers\register_controller;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 Route::get('/', [index_controller::class, 'index'])->name('index');
 Route::get('/login', [login_controller::class, 'index'])->name('login');
 Route::get('/dashboard', [dashoard_controller::class, 'index'])->name('dashboard');
