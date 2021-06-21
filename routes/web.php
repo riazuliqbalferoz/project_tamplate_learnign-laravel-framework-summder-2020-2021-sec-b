@@ -8,6 +8,9 @@ use App\Http\Controllers\dashoard_controller;
 use App\Http\Controllers\register_controller;
 use App\Http\Controllers\searchuser_controller;
 use App\Http\Controllers\changepassword_controller;
+use App\Http\Controllers\event_upload;
+use App\Http\Controllers\search_contrller;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,8 +22,17 @@ use App\Http\Controllers\changepassword_controller;
 |
 */
 Route::get('/', [index_controller::class, 'index'])->name('index');
+
 Route::get('/login', [login_controller::class, 'index'])->name('login');
-Route::get('/dashboard', [dashoard_controller::class, 'index'])->name('dashboard');
+Route::get('/search_product', [search_contrller::class, 'index'])->name('search_product');
+
+Route::get('/upload_event', [event_upload::class, 'index'])->name('upload_event');
+
 Route::get('/register', [register_controller::class, 'index'])->name('register');
+
+
 Route::get('/serarchUser', [searchuser_controller::class, 'index'])->name('serarchUser');
-Route::get('/resetPasswrod', [changepassword_controller::class, 'index'])->name('resetPasswrod');
+
+Route::get('/resetPassword', [changepassword_controller::class, 'index'])->name('resetPasswrod');
+
+Route::get('/dashboard', [dashoard_controller::class, 'index'])->name('dashboard');

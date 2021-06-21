@@ -18,11 +18,11 @@
                     <div class="navi">
                         <ul>
                             <li class="active"><a href="deashboard.html"><i class="fa fa-home" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Home</span></a></li>
-                            <li><a href="edit_user_info_history.html"><i class="fa fa-tasks" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Admin Activity</span></a></li>
+                            <li><a href="{{url('serarchUser')}}"><i class="fa fa-tasks" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Admin Activity</span></a></li>
                             <li><a href="#"><i class="fa fa-bar-chart" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Statistics</span></a></li>
-                            <li><a href="{{url('serarchUser')}}"><i class="fa fa-user" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Search User</span></a></li>
+                            <li><a href="{{url('search_product')}}"><i class="fa fa-user" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Search Product</span></a></li>
                             <li><a href="{{url('resetPassword')}}"><i class="fa fa-search" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Change Password</span></a></li>
-                            <li><a href="stop_user_login.html"><i class="fa fa-cog" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Ban User</span></a></li>
+                            <li><a href="{{url('upload_event')}}"><i class="fa fa-cog" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Upload Event</span></a></li>
                         </ul>
                     </div>
                 </div>
