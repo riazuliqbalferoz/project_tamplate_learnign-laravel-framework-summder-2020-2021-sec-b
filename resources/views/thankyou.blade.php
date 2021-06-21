@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Thank You</title>
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/image/favicon.ico">
     <link
         href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic,900,900italic&amp;subset=latin,latin-ext"
         rel="stylesheet">
@@ -54,20 +54,20 @@
                                 </li>
                                 <li class="menu-item lang-menu menu-item-has-children parent">
                                     <a title="English" href="#"><span class="img label-before"><img
-                                                src="assets/images/lang-en.png" alt="lang-en"></span>English<i
+                                                src="assets/image/lang-en.png" alt="lang-en"></span>English<i
                                             class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="submenu lang">
                                         <li class="menu-item"><a title="hungary" href="#"><span
-                                                    class="img label-before"><img src="assets/images/lang-hun.png"
+                                                    class="img label-before"><img src="assets/image/lang-hun.png"
                                                         alt="lang-hun"></span>Hungary</a></li>
                                         <li class="menu-item"><a title="german" href="#"><span
-                                                    class="img label-before"><img src="assets/images/lang-ger.png"
+                                                    class="img label-before"><img src="assets/image/lang-ger.png"
                                                         alt="lang-ger"></span>German</a></li>
                                         <li class="menu-item"><a title="french" href="#"><span
-                                                    class="img label-before"><img src="assets/images/lang-fra.png"
+                                                    class="img label-before"><img src="assets/image/lang-fra.png"
                                                         alt="lang-fre"></span>French</a></li>
                                         <li class="menu-item"><a title="canada" href="#"><span
-                                                    class="img label-before"><img src="assets/images/lang-can.png"
+                                                    class="img label-before"><img src="assets/image/lang-can.png"
                                                         alt="lang-can"></span>Canada</a></li>
                                     </ul>
                                 </li>
@@ -94,10 +94,10 @@
                 <div class="container">
                     <div class="mid-section main-info-area">
 
-                        <div class="wrap-logo-top left-section">
-                            <a href="index.html" class="link-to-home"><img src="assets/images/logo-top-1.png"
+                        {{-- <div class="wrap-logo-top left-section">
+                            <a href="index.html" class="link-to-home"><img src="assets/image/logo-top-1.png"
                                     alt="mercado"></a>
-                        </div>
+                        </div> --}}
 
                         <div class="wrap-search center-section">
                             <div class="wrap-search-form">
@@ -381,7 +381,7 @@
                                 <h3 class="item-header">We Using Safe Payments:</h3>
                                 <div class="item-content">
                                     <div class="wrap-list-item wrap-gallery">
-                                        <img src="assets/images/payment.png" style="max-width: 260px;">
+                                        <img src="assets/image/payment.png" style="max-width: 260px;">
                                     </div>
                                 </div>
                             </div>
@@ -416,12 +416,12 @@
                                     <div class="wrap-list-item apps-list">
                                         <ul>
                                             <li><a href="#" class="link-to-item" title="our application on apple store">
-                                                    <figure><img src="assets/images/brands/apple-store.png"
+                                                    <figure><img src="assets/image/brands/apple-store.png"
                                                             alt="apple store" width="128" height="36"></figure>
                                                 </a></li>
                                             <li><a href="#" class="link-to-item"
                                                     title="our application on google play store">
-                                                    <figure><img src="assets/images/brands/google-play-store.png"
+                                                    <figure><img src="assets/image/brands/google-play-store.png"
                                                             alt="google play store" width="128" height="36"></figure>
                                                 </a></li>
                                         </ul>

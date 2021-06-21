@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Shopping Cart</title>
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/image/favicon.ico">
     <link
         href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic,900,900italic&amp;subset=latin,latin-ext"
         rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css?family=Open%20Sans:300,400,400italic,600,600italic,700,700italic&amp;subset=latin,latin-ext"
         rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/home.css">
     <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -54,20 +56,20 @@
                                 </li>
                                 <li class="menu-item lang-menu menu-item-has-children parent">
                                     <a title="English" href="#"><span class="img label-before"><img
-                                                src="assets/images/lang-en.png" alt="lang-en"></span>English<i
+                                                src="assets/image/lang-en.png" alt="lang-en"></span>English<i
                                             class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="submenu lang">
                                         <li class="menu-item"><a title="hungary" href="#"><span
-                                                    class="img label-before"><img src="assets/images/lang-hun.png"
+                                                    class="img label-before"><img src="assets/image/lang-hun.png"
                                                         alt="lang-hun"></span>Hungary</a></li>
                                         <li class="menu-item"><a title="german" href="#"><span
-                                                    class="img label-before"><img src="assets/images/lang-ger.png"
+                                                    class="img label-before"><img src="assets/image/lang-ger.png"
                                                         alt="lang-ger"></span>German</a></li>
                                         <li class="menu-item"><a title="french" href="#"><span
-                                                    class="img label-before"><img src="assets/images/lang-fra.png"
+                                                    class="img label-before"><img src="assets/image/lang-fra.png"
                                                         alt="lang-fre"></span>French</a></li>
                                         <li class="menu-item"><a title="canada" href="#"><span
-                                                    class="img label-before"><img src="assets/images/lang-can.png"
+                                                    class="img label-before"><img src="assets/image/lang-can.png"
                                                         alt="lang-can"></span>Canada</a></li>
                                     </ul>
                                 </li>
@@ -94,10 +96,10 @@
                 <div class="container">
                     <div class="mid-section main-info-area">
 
-                        <div class="wrap-logo-top left-section">
-                            <a href="index.html" class="link-to-home"><img src="assets/images/logo-top-1.png"
+                        {{-- <div class="wrap-logo-top left-section">
+                            <a href="index.html" class="link-to-home"><img src="assets/image/logo-top-1.png"
                                     alt="mercado"></a>
-                        </div>
+                        </div> --}}
 
                         <div class="wrap-search center-section">
                             <div class="wrap-search-form">
@@ -226,7 +228,7 @@
                     <ul class="products-cart">
                         <li class="pr-cart-item">
                             <div class="product-image">
-                                <figure><img src="assets/images/products/digital_18.jpg" alt=""></figure>
+                                <figure><img src="assets/image/products/digital_18.jpg" alt=""></figure>
                             </div>
                             <div class="product-name">
                                 <a class="link-to-product" href="#">Radiant-360 R6 Wireless Omnidirectional Speaker
@@ -254,7 +256,7 @@
                         </li>
                         <li class="pr-cart-item">
                             <div class="product-image">
-                                <figure><img src="assets/images/products/digital_20.jpg" alt=""></figure>
+                                <figure><img src="assets/image/products/digital_20.jpg" alt=""></figure>
                             </div>
                             <div class="product-name">
                                 <a class="link-to-product" href="#">Radiant-360 R6 Wireless Omnidirectional Speaker
@@ -317,8 +319,8 @@
                             <div class="product product-style-2 equal-elem ">
                                 <div class="product-thumnail">
                                     <a href="#" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                        <figure><img src="assets/images/products/digital_04.jpg" width="214"
-                                                height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
+                                        <figure><img src="assets/image/products/digital_04.jpg" width="214" height="214"
+                                                alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                         </figure>
                                     </a>
                                     <div class="group-flash">
@@ -338,8 +340,8 @@
                             <div class="product product-style-2 equal-elem ">
                                 <div class="product-thumnail">
                                     <a href="#" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                        <figure><img src="assets/images/products/digital_17.jpg" width="214"
-                                                height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
+                                        <figure><img src="assets/image/products/digital_17.jpg" width="214" height="214"
+                                                alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                         </figure>
                                     </a>
                                     <div class="group-flash">
@@ -363,8 +365,8 @@
                             <div class="product product-style-2 equal-elem ">
                                 <div class="product-thumnail">
                                     <a href="#" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                        <figure><img src="assets/images/products/digital_15.jpg" width="214"
-                                                height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
+                                        <figure><img src="assets/image/products/digital_15.jpg" width="214" height="214"
+                                                alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                         </figure>
                                     </a>
                                     <div class="group-flash">
@@ -389,8 +391,8 @@
                             <div class="product product-style-2 equal-elem ">
                                 <div class="product-thumnail">
                                     <a href="#" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                        <figure><img src="assets/images/products/digital_01.jpg" width="214"
-                                                height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
+                                        <figure><img src="assets/image/products/digital_01.jpg" width="214" height="214"
+                                                alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                         </figure>
                                     </a>
                                     <div class="group-flash">
@@ -410,8 +412,8 @@
                             <div class="product product-style-2 equal-elem ">
                                 <div class="product-thumnail">
                                     <a href="#" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                        <figure><img src="assets/images/products/digital_21.jpg" width="214"
-                                                height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
+                                        <figure><img src="assets/image/products/digital_21.jpg" width="214" height="214"
+                                                alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                         </figure>
                                     </a>
                                     <div class="wrap-btn">
@@ -428,8 +430,8 @@
                             <div class="product product-style-2 equal-elem ">
                                 <div class="product-thumnail">
                                     <a href="#" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                        <figure><img src="assets/images/products/digital_03.jpg" width="214"
-                                                height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
+                                        <figure><img src="assets/image/products/digital_03.jpg" width="214" height="214"
+                                                alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                         </figure>
                                     </a>
                                     <div class="group-flash">
@@ -453,8 +455,8 @@
                             <div class="product product-style-2 equal-elem ">
                                 <div class="product-thumnail">
                                     <a href="#" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                        <figure><img src="assets/images/products/digital_04.jpg" width="214"
-                                                height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
+                                        <figure><img src="assets/image/products/digital_04.jpg" width="214" height="214"
+                                                alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                         </figure>
                                     </a>
                                     <div class="group-flash">
@@ -474,8 +476,8 @@
                             <div class="product product-style-2 equal-elem ">
                                 <div class="product-thumnail">
                                     <a href="#" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                        <figure><img src="assets/images/products/digital_05.jpg" width="214"
-                                                height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
+                                        <figure><img src="assets/image/products/digital_05.jpg" width="214" height="214"
+                                                alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                         </figure>
                                     </a>
                                     <div class="group-flash">
