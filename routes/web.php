@@ -41,6 +41,8 @@ Route::get('/resetPassword', [changepassword_controller::class, 'index'])->name(
 
 Route::get('/dashboard', [dashoard_controller::class, 'index'])->name('dashboard');
 Route::get('/add_agent_seller', [agent_seller_controller::class, 'index'])->name('add_agent_seller');
+Route::get('/edit_agent_info', [agent_seller_controller::class, 'update'])->name('edit_agent_info');
+
 
 
 Route::get('/order_list', [order_controller::class, 'index'])->name('order_list');
