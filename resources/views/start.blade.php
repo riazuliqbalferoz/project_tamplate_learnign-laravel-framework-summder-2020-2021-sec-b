@@ -60,7 +60,7 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="{{url('/add_agent_seller')}}">Agent Seller</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{url('/login')}}">login</a>
@@ -188,3 +188,4 @@
     <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
+

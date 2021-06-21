@@ -10,6 +10,8 @@ use App\Http\Controllers\searchuser_controller;
 use App\Http\Controllers\changepassword_controller;
 use App\Http\Controllers\event_upload;
 use App\Http\Controllers\search_contrller;
+use App\Http\Controllers\agent_seller_controller;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -36,3 +38,4 @@ Route::get('/serarchUser', [searchuser_controller::class, 'index'])->name('serar
 Route::get('/resetPassword', [changepassword_controller::class, 'index'])->name('resetPasswrod');
 
 Route::get('/dashboard', [dashoard_controller::class, 'index'])->name('dashboard');
+Route::get('/add_agent_seller', [agent_seller_controller::class, 'index'])->name('add_agent_seller');
