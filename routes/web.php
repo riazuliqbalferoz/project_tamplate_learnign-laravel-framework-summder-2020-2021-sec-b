@@ -30,6 +30,7 @@ Route::get('/login', [login_controller::class, 'index'])->name('login');
 Route::get('/search_product', [search_contrller::class, 'index'])->name('search_product');
 
 Route::get('/upload_event', [event_upload::class, 'index'])->name('upload_event');
+Route::get('/upload_event_update', [event_upload::class, 'update'])->name('upload_event_update');
 
 Route::get('/register', [register_controller::class, 'index'])->name('register');
 
@@ -40,4 +41,6 @@ Route::get('/resetPassword', [changepassword_controller::class, 'index'])->name(
 
 Route::get('/dashboard', [dashoard_controller::class, 'index'])->name('dashboard');
 Route::get('/add_agent_seller', [agent_seller_controller::class, 'index'])->name('add_agent_seller');
+
+
 Route::get('/order_list', [order_controller::class, 'index'])->name('order_list');
