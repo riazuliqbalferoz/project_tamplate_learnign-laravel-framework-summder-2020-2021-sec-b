@@ -11,6 +11,7 @@ use App\Http\Controllers\changepassword_controller;
 use App\Http\Controllers\event_upload;
 use App\Http\Controllers\search_contrller;
 use App\Http\Controllers\agent_seller_controller;
+use App\Http\Controllers\order_controller;
 
 
 /*
@@ -39,3 +40,4 @@ Route::get('/resetPassword', [changepassword_controller::class, 'index'])->name(
 
 Route::get('/dashboard', [dashoard_controller::class, 'index'])->name('dashboard');
 Route::get('/add_agent_seller', [agent_seller_controller::class, 'index'])->name('add_agent_seller');
+Route::get('/order_list', [order_controller::class, 'index'])->name('order_list');
