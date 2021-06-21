@@ -40,6 +40,8 @@ Route::get('/serarchUser', [searchuser_controller::class, 'index'])->name('serar
 Route::get('/resetPassword', [changepassword_controller::class, 'index'])->name('resetPasswrod');
 
 Route::get('/dashboard', [dashoard_controller::class, 'index'])->name('dashboard');
+
+Route::get('/sales_report', [dashoard_controller::class, 'sales'])->name('sales_report');
 Route::get('/add_agent_seller', [agent_seller_controller::class, 'index'])->name('add_agent_seller');
 Route::get('/edit_agent_info', [agent_seller_controller::class, 'update'])->name('edit_agent_info');
 

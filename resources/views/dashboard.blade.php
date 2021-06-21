@@ -24,6 +24,7 @@
                             <li><a href="{{url('resetPassword')}}"><i class="fa fa-search" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Change Password</span></a></li>
                             <li><a href="{{url('upload_event')}}"><i class="fa fa-cog" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Upload Event</span></a></li>
                             <li><a href="{{url('upload_event_update')}}"><i class="fa fa-cog" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Edit Event</span></a></li>
+                            <li><a href="{{url('sales_report')}}"><i class="fa fa-cog" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Sales Report</span></a></li>
 
                             <li><a href="{{url('edit_agent_info')}}"><i class="fa fa-cog" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Edit Agentseller Info</span></a></li>
                             
