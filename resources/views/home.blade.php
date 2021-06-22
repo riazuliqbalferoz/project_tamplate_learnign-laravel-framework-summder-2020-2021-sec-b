@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +10,10 @@
     <!-- bootstrap -->
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
     <!-- font awesome -->
-   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="./assets/fonts/all.min.css">
     <link rel="stylesheet" href="./assets/fonts/all.css">
     <!-- roboto font -->
@@ -20,6 +23,7 @@
     <!-- css -->
     <link rel="stylesheet" href="./assets/css/home.css">
 </head>
+
 <body>
     <section class="all-navber container">
         <div class="top-nav row align-items-center py-1">
@@ -28,7 +32,8 @@
                     <a class="nav-link disabled" href="#"><i class="fas fa-phone-alt"></i> 017001234523</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i class="fas fa-envelope"></i> riazuliqbalferoz@gmail.com</a>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i
+                            class="fas fa-envelope"></i> riazuliqbalferoz@gmail.com</a>
                 </li>
             </ul>
 
@@ -47,10 +52,11 @@
                 </li>
             </ul>
         </div>
-        
-       <nav class="navbar navbar-expand-lg navbar-light sticky-top my-2 py-2">
-        <a class="navbar-brand" href="index.html">Shop Inventory Management System </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top my-2 py-2">
+            <a class="navbar-brand" href="index.html">Shop Inventory Management System </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -63,7 +69,7 @@
                         <a class="nav-link" href="#">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('service')}}">login</a>
+                        <a class="nav-link" href="{{ route('service') }}">login</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About us</a>
@@ -72,9 +78,10 @@
                         <a class="nav-link" href="./contact.html">Contact</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="btn" href="#" role="button"  data-toggle="modal" data-target="#exampleModal"><i class="fas fa-search"></i></a>
+                        <a class="btn" href="#" role="button" data-toggle="modal" data-target="#exampleModal"><i
+                                class="fas fa-search"></i></a>
                     </li>
-                    
+
                 </ul>
             </div>
         </nav>
@@ -85,12 +92,13 @@
                 <div class="modal-content">
                     <div class="modal-header border-0 mx-4">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                            <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body mx-4 my-2">
-                         <form class=" my-2 my-lg-0">
-                            <input class="form-control mr-sm-2 rounded-pill px-4" type="search" placeholder="Search" aria-label="Search">
+                        <form class=" my-2 my-lg-0">
+                            <input class="form-control mr-sm-2 rounded-pill px-4" type="search" placeholder="Search"
+                                aria-label="Search">
                         </form>
                     </div>
                 </div>
@@ -110,13 +118,13 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./assets/image/img-1.jpg" class="d-block w-100" alt="header image" height="600px">
-                     <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-none d-md-block">
                         <h1>Here is our <br> Header</h1>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="./assets/image/img-2.jpg" class="d-block w-100" alt="header image" height="600px">
-                     <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-none d-md-block">
                         <h1>Here is our <br> Header</h1>
                     </div>
                 </div>
@@ -124,7 +132,7 @@
                 <div class="carousel-item">
                     <img src="./assets/image/img-3.jpg" class="d-block w-100" alt="header image" height="600px">
 
-                     <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-none d-md-block">
                         <h1>Here is our <br> Header</h1>
                     </div>
                 </div>
@@ -143,13 +151,14 @@
 
 
 
-     <!-- footer -->
+    <!-- footer -->
     <footer class="text-white mt-5">
         <div class="container">
             <div class="row px-2 pt-5 pb-2 justify-content-around">
                 <div class="col-4">
                     <h1 class="mb-4">Logo</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quod, accusantium repudiandae fuga corrupti aspernatur nobis quos magnam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quod, accusantium repudiandae
+                        fuga corrupti aspernatur nobis quos magnam.</p>
                 </div>
                 <div class="col-3 d-flex justify-content-center">
                     <div>
@@ -177,14 +186,15 @@
         <!-- bottom footer -->
         <hr class="container-fluid">
         <div class=" bottom-footer container px-5 py-2">
-           <i class="far fa-copyright mx-1 mb-3"></i> RiazulIqbalFeroz@gmail.com. All Rights Reserved. 
-           <span class="float-right">Developed By Riazul Iqbqal Feroz</span>
+            <i class="far fa-copyright mx-1 mb-3"></i> RiazulIqbalFeroz@gmail.com. All Rights Reserved.
+            <span class="float-right">Developed By Riazul Iqbqal Feroz</span>
         </div>
     </footer>
-    
+
     <!-- bootstrap -->
     <script src="./assets/bootstrap/jquery-3.5.1.slim.min.js"></script>
     <script src="./assets/bootstrap/popper.min.js"></script>
     <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>
