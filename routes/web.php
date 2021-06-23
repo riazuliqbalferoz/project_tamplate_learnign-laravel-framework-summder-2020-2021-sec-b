@@ -9,6 +9,7 @@ use App\Http\Controllers\register_controller;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\DetailController;
 use App\Http\Controllers\CheckoutController;
+use App\Http\Controllers\ShopController;
 use PhpParser\Node\Stmt\Return_;
 
 Route::get('/', [index_controller::class, 'index'])->name('index');
@@ -21,7 +22,7 @@ Route::get('/shop', function () {
 Route::get('/cart',[CartController::class,'index']);
 Route::get('/checkout',[CheckoutController::class,'index']);
 Route::get('/detail',[DetailController::class,'index']);
-Route::get('/shop',[ShopCartController::class,'index']);
+Route::get('/shop',[ShopController::class,'index']);
 Route::get('/thankyou', function () {
     return view('thankyou');
 });
