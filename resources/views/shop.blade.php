@@ -16,13 +16,6 @@
     <!-- css -->
     <link rel="stylesheet" href="./assets/css/home.css">
 
-    <link rel="shortcut icon" type="image/x-icon" href="assets/image/favicon.ico">
-    <link
-        href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic,900,900italic&amp;subset=latin,latin-ext"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css?family=Open%20Sans:300,400,400italic,600,600italic,700,700italic&amp;subset=latin,latin-ext"
-        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -46,61 +39,6 @@
     <header id="header" class="header header-style-1">
         <div class="container-fluid">
             <div class="row">
-
-                <div class="topbar-menu-area">
-                    <div class="container">
-                        <div class="topbar-menu left-menu">
-                            <ul>
-                                <li class="menu-item">
-                                    <a title="Hotline: (+123) 456 789" href="#"><span
-                                            class="icon label-before fa fa-mobile"></span>Hotline: (+123) 456 789</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="topbar-menu right-menu">
-                            <ul>
-                                <li class="menu-item"><a title="Register or Login" href="login.html">Login</a></li>
-                                <li class="menu-item"><a title="Register or Login" href="register.html">Register</a>
-                                </li>
-                                <li class="menu-item lang-menu menu-item-has-children parent">
-                                    <a title="English" href="#"><span class="img label-before"><img
-                                                src="assets/image/lang-en.png" alt="lang-en"></span>English<i
-                                            class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                    <ul class="submenu lang">
-                                        <li class="menu-item"><a title="hungary" href="#"><span
-                                                    class="img label-before"><img src="assets/image/lang-hun.png"
-                                                        alt="lang-hun"></span>Hungary</a></li>
-                                        <li class="menu-item"><a title="german" href="#"><span
-                                                    class="img label-before"><img src="assets/image/lang-ger.png"
-                                                        alt="lang-ger"></span>German</a></li>
-                                        <li class="menu-item"><a title="french" href="#"><span
-                                                    class="img label-before"><img src="assets/image/lang-fra.png"
-                                                        alt="lang-fre"></span>French</a></li>
-                                        <li class="menu-item"><a title="canada" href="#"><span
-                                                    class="img label-before"><img src="assets/image/lang-can.png"
-                                                        alt="lang-can"></span>Canada</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item menu-item-has-children parent">
-                                    <a title="Dollar (USD)" href="#">Dollar (USD)<i class="fa fa-angle-down"
-                                            aria-hidden="true"></i></a>
-                                    <ul class="submenu curency">
-                                        <li class="menu-item">
-                                            <a title="Pound (GBP)" href="#">Pound (GBP)</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a title="Euro (EUR)" href="#">Euro (EUR)</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a title="Dollar (USD)" href="#">Dollar (USD)</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
                 <div class="container">
                     <div class="mid-section main-info-area">
 
@@ -174,23 +112,6 @@
                 </div>
 
                 <div class="nav-section header-sticky">
-                    <div class="header-nav-section">
-                        <div class="container">
-                            <ul class="nav menu-nav clone-main-menu" id="mercado_haead_menu" data-menuname="Sale Info">
-                                <li class="menu-item"><a href="#" class="link-term">Weekly Featured</a><span
-                                        class="nav-label hot-label">hot</span></li>
-                                <li class="menu-item"><a href="#" class="link-term">Hot Sale items</a><span
-                                        class="nav-label hot-label">hot</span></li>
-                                <li class="menu-item"><a href="#" class="link-term">Top new items</a><span
-                                        class="nav-label hot-label">hot</span></li>
-                                <li class="menu-item"><a href="#" class="link-term">Top Selling</a><span
-                                        class="nav-label hot-label">hot</span></li>
-                                <li class="menu-item"><a href="#" class="link-term">Top rated items</a><span
-                                        class="nav-label hot-label">hot</span></li>
-                            </ul>
-                        </div>
-                    </div>
-
                     <div class="primary-nav-section">
                         <div class="container">
                             <ul class="nav primary clone-main-menu" id="mercado_main" data-menuname="Main menu">
@@ -733,15 +654,7 @@
             <span class="float-right">Developed By Riazul Iqbqal Feroz</span>
         </div>
     </footer>
-
-    <script src="assets/js/jquery-1.12.4.minb8ff.js?ver=1.12.4"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/chosen.jquery.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/jquery.sticky.js"></script>
-    <script src="assets/js/functions.js"></script>
     <!--footer area-->
-
     <script src="assets/js/jquery-1.12.4.minb8ff.js?ver=1.12.4"></script>
     <script src="assets/js/jquery-ui-1.12.4.minb8ff.js?ver=1.12.4"></script>
     <script src="assets/js/bootstrap.min.js"></script>
