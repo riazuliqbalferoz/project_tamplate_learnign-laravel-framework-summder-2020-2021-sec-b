@@ -15,14 +15,15 @@
     @yield('content')
     {{View::make('footer')}}
 </body>
-<script>
-    $(document).ready(function()
-    {
-        $("button").click(function(){
-            alert("al set")
-        })
-    })
-</script>
+
+{{--<script>--}}
+{{--    $(document).ready(function()--}}
+{{--    {--}}
+{{--        $("button").click(function(){--}}
+{{--            alert("al set")--}}
+{{--        })--}}
+{{--    })--}}
+{{--</script>--}}
 <style>
     .custom-login{
         height: 500px;
