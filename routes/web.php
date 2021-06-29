@@ -26,4 +26,6 @@ Route::get('/shop',[ShopController::class,'index']);
 Route::get('/thankyou', function () {
     return view('thankyou');
 });
-
+Route::get('/contact-us', function () {
+    return view('contact-us');
+});
