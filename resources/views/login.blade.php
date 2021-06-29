@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>Login</title>
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
@@ -108,8 +108,8 @@
     }
 
     .sidenav {
-
-        background-image: url("1st.jpg");
+        /*TODO : image path wrong*/
+       /* background-image: url("1st.jpg");*/
         background-size: cover;
         height: 100%;
         background-color: #000;
@@ -164,7 +164,7 @@
 
     .login-main-text {
         margin-top: 20%;
-        padding: px;
+        padding:  0px;
         color: #fff;
     }
 

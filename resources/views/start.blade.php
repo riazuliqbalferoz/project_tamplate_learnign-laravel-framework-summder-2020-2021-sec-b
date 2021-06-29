@@ -69,7 +69,7 @@
                         <a class="nav-link" href="#">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="login.html">login</a>
+                        <a class="nav-link" href="{{route('login')}}">login</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About us</a>
