@@ -22,8 +22,8 @@
                     <a class="nav-link" href="#">Cart(0)</a>
                 </li>
             </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <form class="d-flex navbar-form" action="/search">
+                <input class="form-control me-2 search-box" type="text" name="query" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
         </div>
