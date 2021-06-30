@@ -16,7 +16,9 @@ Route::get('/login', [login_controller::class, 'index'])->name('login');
 Route::get('/dashboard', [dashoard_controller::class, 'index'])->name('dashboard');
 Route::get('/register', [register_controller::class, 'index'])->name('register');
 
-Route::get('/userlogin',[UserController::class,'index'] );
-Route::post('/userlogin',[UserController::class,'login'] );
-Route::get('/product',[ProductController::class,'index'] );
+Route::get('/userlogin',[UserController::class,'index']);
+Route::post('/userlogin',[UserController::class,'login']);
+Route::get('/product',[ProductController::class,'index']);
+Route::get('detail/{id}',[ProductController::class,'detail']);
+Route::get('search',[ProductController::class,'search']);
 
