@@ -13,10 +13,12 @@
                 <form action="/add_to_cart" method="POST">
                     @csrf
                     <input type="hidden" name="product_id" value="{{$product['id']}}">
-                    <button class="btn btn-primary">Add to cart</button><br><br>
+                    <button class="btn btn-primary">Add to cart</button>
+                    <br><br>
                 </form>
 
-                <button class="btn btn-success">Buy now</button><br><br>
+                <button class="btn btn-success">Buy now</button>
+                <br><br>
             </div>
         </div>
     </div>
