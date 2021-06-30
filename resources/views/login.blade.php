@@ -12,8 +12,8 @@
     <!-- font awesome -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-        crossorigin="anonymous" />
+          integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+          crossorigin="anonymous"/>
     <link rel="stylesheet" href="./assets/fonts/all.min.css">
     <link rel="stylesheet" href="./assets/fonts/all.css">
     <!-- roboto font -->
@@ -25,80 +25,78 @@
 </head>
 
 <body class="main">
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top my-2 py-2">
+<nav class="navbar navbar-expand-lg navbar-light sticky-top my-2 py-2">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('index') }}">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('login') }}">login</a>
-                </li>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('index') }}">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('login') }}">login</a>
+            </li>
 
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="btn" href="#" role="button" data-toggle="modal" data-target="#exampleModal"><i
-                            class="fas fa-search"></i></a>
-                </li>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item mx-2">
+                <a class="btn" href="#" role="button" data-toggle="modal" data-target="#exampleModal"><i
+                        class="fas fa-search"></i></a>
+            </li>
 
-            </ul>
-        </div>
-    </nav>
-    <div class="sidenav">
-        <div class="login-main-text text-black-50">
-            <h2>Application<br> Login Page</h2>
-            <p>Login or register from here to User Access.</p>
+        </ul>
+    </div>
+</nav>
+<div class="sidenav">
+    <div class="login-main-text text-black-50">
+        <h2>Application<br> Login Page</h2>
+        <p>Login or register from here to User Access.</p>
+    </div>
+</div>
+<div class="main">
+    <div class="col-md-6 col-sm-12">
+        <div class="login-form">
+            <form>
+                <div class="form-group">
+                    <label>User Name</label>
+                    <input type="text" class="form-control" placeholder="User Name">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" class="form-control" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-black">Login</button>
+                <button type="submit" class="btn btn-secondary"><a class="text-white"
+                                                                   href="register.html">Registration</a></button>
+            </form>
         </div>
     </div>
-    <div class="main">
-        <div class="col-md-6 col-sm-12">
-            <div class="login-form">
-                <form>
-                    <div class="form-group">
-                        <label>User Name</label>
-                        <input type="text" class="form-control" placeholder="User Name">
-                    </div>
-                    <div class="form-group">
-                        <label>Password</label>
-                        <input type="password" class="form-control" placeholder="Password">
-                    </div>
-                    <button type="submit" class="btn btn-black">Login</button>
-                    <button type="submit" class="btn btn-secondary"><a class="text-white"
-                            href="register.html">Registration</a></button>
-                </form>
-            </div>
-        </div>
-    </div>
-    <footer>
-    </footer>
+</div>
+<footer>
+</footer>
 
-    <!-- bootstrap -->
-    <script src="./assets/bootstrap/jquery-3.5.1.slim.min.js"></script>
-    <script src="./assets/bootstrap/popper.min.js"></script>
-    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+<!-- bootstrap -->
+<script src="./assets/bootstrap/jquery-3.5.1.slim.min.js"></script>
+<script src="./assets/bootstrap/popper.min.js"></script>
+<script src="./assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
-
 
 
 <style>
     body {
         font-family: "Lato", sans-serif;
     }
-
 
 
     .main-head {
@@ -109,7 +107,7 @@
 
     .sidenav {
         /*TODO : image path wrong*/
-       /* background-image: url("1st.jpg");*/
+        /* background-image: url("1st.jpg");*/
         background-size: cover;
         height: 100%;
         background-color: #000;
@@ -164,7 +162,7 @@
 
     .login-main-text {
         margin-top: 20%;
-        padding:  0px;
+        padding: 0px;
         color: #fff;
     }
 

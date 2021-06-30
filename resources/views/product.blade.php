@@ -1,6 +1,6 @@
 @extends('master')
 @section('content')
-    <div class="container custom-product ">
+    <div class="custom-product ">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -19,11 +19,11 @@
                 @foreach($products as $item)
                     <div class="carousel-item {{$item['id']==1?'active':''}}">
                         <a href="detail/{{$item['id']}}">
-                        <img class="slider-img" src="{{$item['gallery']}}" class="d-block w-100" alt="...">
-                        <div class="carousel-caption slider-text d-none d-md-block">
-                            <h5>{{$item['name']}}</h5>
-                            <p>{{$item['description']}}</p>
-                        </div>
+                            <img class="slider-img" src="{{$item['gallery']}}" class="d-block w-100" alt="...">
+                            <div class="carousel-caption slider-text d-none d-md-block">
+                                <h5>{{$item['name']}}</h5>
+                                <p>{{$item['description']}}</p>
+                            </div>
                         </a>
                     </div>
                 @endforeach
@@ -39,20 +39,19 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-
-    </div>
-    <div class="trending-wrapper custom-product">
-        <h3>Trending products</h3>
-        @foreach ($products as $item)
-            <div class="trending-item">
-                <a href="detail/{{$item['id']}}">
-                <img class="trending-img" src="{{$item['gallery']}}" class="d-block w-100" alt="...">
-                <div>
-                    <h5>{{$item['name']}}</h5>
+        <div class="trending-wrapper">
+            <h3>Trending products</h3>
+            @foreach ($products as $item)
+                <div class="trending-item">
+                    <a href="detail/{{$item['id']}}">
+                        <img class="trending-img" src="{{$item['gallery']}}" class="d-block w-100" alt="...">
+                        <div>
+                            <h5>{{$item['name']}}</h5>
+                        </div>
+                    </a>
                 </div>
-                </a>
-            </div>
-            </div>
+        </div>
         @endforeach
     </div>
+
 @endsection
