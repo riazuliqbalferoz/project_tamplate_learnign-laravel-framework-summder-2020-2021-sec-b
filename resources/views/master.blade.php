@@ -40,10 +40,10 @@
     }
     .trending-item{
         float: left;
-        width: 20%;
+        width: 15%;
     }
     .trending-wrapper{
-        margin: 5%;
+        margin: 1%;
     }
     .detail-img{
         height: 200px;
