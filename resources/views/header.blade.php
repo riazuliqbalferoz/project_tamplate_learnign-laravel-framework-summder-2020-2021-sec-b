@@ -17,7 +17,7 @@ if (Session::has('user')) {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="/product">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Orders</a>
@@ -29,7 +29,7 @@ if (Session::has('user')) {
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">cart({{$total}})</a>
+                    <a class="nav-link" href="/cartlist">cart({{$total}})</a>
                 </li>
                 @if(Session::has('user'))
                     <li class="nav-item dropdown">
