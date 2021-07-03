@@ -12,14 +12,25 @@ class UserController extends Controller
     {
         return view('userLogin');
     }
+    function social()
+    {
+        return view('social_login');
+    }
     function login(Request $req)
     {
         $user = User::where(['email' => $req->email])->first();
-        if (!$user || !Hash::check($req->password, $user->password)) {
-            return "user email or password did not match";
-        } else {
+
+      
+          if($user->status=="admin") {
+            $req->session()->put('user', $user);
+            return redirect('/dashboard');
+        }
+
+       else if($user->status=="user") {
             $req->session()->put('user', $user);
             return redirect('/product');
+       
+            
         }
         // return $req->input();
     }
