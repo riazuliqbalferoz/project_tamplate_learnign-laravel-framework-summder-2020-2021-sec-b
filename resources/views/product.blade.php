@@ -1,6 +1,6 @@
 @extends('master')
 @section('content')
-    <div class="custom-product ">
+    <div class="custom-product content">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -9,14 +9,11 @@
                         aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-                        aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
-                        aria-label="Slide 5"></button>
             </div>
             <div class="carousel-inner">
 
                 @foreach($products as $item)
+                    @if($item['id']<=3)
                     <div class="carousel-item {{$item['id']==1?'active':''}}">
                         <a href="detail/{{$item['id']}}">
                             <img class="slider-img" src="{{$item['gallery']}}" class="d-block w-100" alt="...">
@@ -26,6 +23,7 @@
                             </div>
                         </a>
                     </div>
+                    @endif
                 @endforeach
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
@@ -50,8 +48,8 @@
                         </div>
                     </a>
                 </div>
+            @endforeach
         </div>
-        @endforeach
     </div>
 
 @endsection
