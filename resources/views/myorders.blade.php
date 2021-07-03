@@ -24,6 +24,9 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="col-sm-3">
+                                <a href="/cancelorder/{{$item->order_id}}" class="btn btn-warning">Cancel order</a>
+                            </div>
                         </div>
                     @endforeach
                 </div>

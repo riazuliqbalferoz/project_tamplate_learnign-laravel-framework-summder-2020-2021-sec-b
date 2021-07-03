@@ -102,8 +102,13 @@ class ProductController extends Controller
         $myorders = DB::table('orders')
             ->join('products', 'orders.product_id', '=', 'products.id')
             ->where('orders.user_id', $userId)
+            ->select('products.*', 'orders.id as order_id')
             ->get();
 
         return view('myorders', ['myorders' => $myorders]);
+    }
+    public function cancelOrder($id){
+        Order::destroy($id);
+        return redirect('myorders');
     }
 }
