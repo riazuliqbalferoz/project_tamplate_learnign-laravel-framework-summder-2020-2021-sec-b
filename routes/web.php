@@ -23,6 +23,7 @@ Route::get('/', [index_controller::class, 'index'])->name('index');
 
 Route::get('/userlogin', [UserController::class, 'index']);
 Route::post('/userlogin', [UserController::class, 'login']);
+Route::get('/register', [UserController::class, 'register_index']);
 Route::post('/register', [UserController::class, 'register']);
 Route::get('/product', [ProductController::class, 'index']);
 Route::get('detail/{id}', [ProductController::class, 'detail']);

@@ -12,6 +12,10 @@ class UserController extends Controller
     {
         return view('userLogin');
     }
+    function register_index()
+    {
+        return view('register');
+    }
     function social()
     {
         return view('social_login');
