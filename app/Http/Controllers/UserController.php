@@ -20,7 +20,7 @@ class UserController extends Controller
     {
         $user = User::where(['email' => $req->email])->first();
 
-      
+
           if($user->status=="admin") {
             $req->session()->put('user', $user);
             return redirect('/dashboard');
@@ -29,9 +29,18 @@ class UserController extends Controller
        else if($user->status=="user") {
             $req->session()->put('user', $user);
             return redirect('/product');
-       
-            
+
+
         }
         // return $req->input();
+    }
+    function register(Request $req){
+        $user = new User;
+        $user->name = $req->name;
+        $user->email = $req->email;
+        $user->password = Hash::make($req->password);
+        $user->status = "user";
+        $user->save();
+        return redirect('/userlogin');
     }
 }
