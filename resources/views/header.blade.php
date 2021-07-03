@@ -22,10 +22,6 @@ if (Session::has('user')) {
                 <li class="nav-item">
                     <a class="nav-link" href="/myorders">Orders</a>
                 </li>
-
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="nav-item">
