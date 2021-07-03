@@ -68,11 +68,11 @@
             <form>
                 <div class="form-group">
                     <label>User Name</label>
-                    <input type="text" class="form-control" placeholder="User Name">
+                    <input type="text" class="form-control" name="name" placeholder="User Name">
                 </div>
                 <div class="form-group">
                     <label>Password</label>
-                    <input type="password" class="form-control" placeholder="Password">
+                    <input type="password"  name="password"class="form-control" placeholder="Password">
                 </div>
                 <button type="submit" class="btn btn-black">Login</button>
                 <button type="submit" class="btn btn-secondary"><a class="text-white"
